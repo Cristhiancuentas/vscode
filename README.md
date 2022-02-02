@@ -58,7 +58,7 @@ Until adding extension pack on marketplace, the dependencies have to be installe
 
 ### Layout
 
-![Layout](https://github.com/raw-labs/vscode/tree/main/imagesextension-layout.png)
+![Layout](https://github.com/raw-labs/vscode/blob/main/images/imagesextension-layout.png)
 
 ### Authentication
 
@@ -66,17 +66,17 @@ Until adding extension pack on marketplace, the dependencies have to be installe
 
 When trying to Login, or run yaml file without being Logged In, a pop up will emerge where you have to provide your access token. The token expires after 24 hours.
 
-![Provide Token](https://github.com/raw-labs/vscode/tree/main/imagesprovide-token.png)
+![Provide Token](https://github.com/raw-labs/vscode/blob/main/images/imagesprovide-token.png)
 
 #### Logout
 In order to logout, go to the left bottom corner of the editor, select the `Accounts` icon and then sign out.
 
-![Logout](https://github.com/raw-labs/vscode/tree/main/imageslogout.png)
+![Logout](https://github.com/raw-labs/vscode/blob/main/images/imageslogout.png)
 
 ### Invoking Snippets
 While editing YAML and RQL files press `ctl + space`, a list will emerge with the available options.
 
-![YAML Snippets](https://github.com/raw-labs/vscode/tree/main/imagesyaml-snipets.png)
+![YAML Snippets](https://github.com/raw-labs/vscode/blob/main/images/imagesyaml-snipets.png)
 
 ### Yaml auto-completion and validation
 In order to use auto-completion and validation for Yaml file, you have to add the schema for the specific RAW yaml file (site or endpoint). Type `raw-import-{site,endpoint}-schema` and press enter and the schema will be injected.
@@ -94,17 +94,17 @@ RQL validation happens after running the related yaml file. The errors will be v
 #### Endpoints without arguments
 After setting up the top level site-yaml file as well as the child endpoint yaml files, in order to run the yaml files, navigate to RAW panel tab, and then click on the **Play Button** that is visible when hovering the yaml file. An alternative way to run the file is again navigate to RAW panel tab, then open the file in editor, **right click** in the text area and select `RAW - Run File` or press F8.
 
-![Run Yaml](https://github.com/raw-labs/vscode/tree/main/imagesrun-yaml.png)
+![Run Yaml](https://github.com/raw-labs/vscode/blob/main/images/imagesrun-yaml.png)
 
 #### Endpoints with arguments
 In order to run yaml files with arguments, click on `Add Argument Set` button on the left side of the editor. Then add any arguments needed for the invocation. Select the checkbox of the argument set that you want to use and then follow the steps described in [Endpoints without arguments](#endpoints-without-arguments). You can have multiple Argument Sets and select a different set per call.
 
-![Run Yaml With Arguments](https://github.com/raw-labs/vscode/tree/main/imagesarguments.png)
+![Run Yaml With Arguments](https://github.com/raw-labs/vscode/blob/main/images/imagesarguments.png)
 
 ### Listing Data Sources and Test Access
 When authenticated the extension will automatically fetch the available Data Sources and visualize them at the bottom of RAW explorer. In order to Test Access to Data Sources, click on the Data Source.
 
-![Data Sources](https://github.com/raw-labs/vscode/tree/main/imagesdata-sources.png)
+![Data Sources](https://github.com/raw-labs/vscode/blob/main/images/imagesdata-sources.png)
 
 ### Scratchpad
 From version 0.0.5 and on the extension supports scratchpad functionality. You still have to set up your git repository in order to use it.
@@ -112,23 +112,23 @@ From version 0.0.5 and on the extension supports scratchpad functionality. You s
 #### Opening
 In order to open scratchpad go to RAW extension panel tab -> RAW explorer -> RAW - Open Scratchpad
 
-![Open Scratchpad](https://github.com/raw-labs/vscode/tree/main/imagesscratchpad-open.png)
+![Open Scratchpad](https://github.com/raw-labs/vscode/blob/main/images/imagesscratchpad-open.png)
 
 
 For more advanced VS Code users there is also a command by pressing `ctl + shift + p` and type open scratchpad.
 
-![Open Scratchpad With Command](https://github.com/raw-labs/vscode/tree/main/imagesscratchpad-with-command.png)
+![Open Scratchpad With Command](https://github.com/raw-labs/vscode/blob/main/images/imagesscratchpad-with-command.png)
 
 #### Running Code
 In order to run the code there are 3 ways.
 1. Right click -> RAW - Run Scratchpad Code
 2. `F8` when focused on the scratchpad
 
-![Right Click Run Click](https://github.com/raw-labs/vscode/tree/main/imagesscratchpad-right-click.png)
+![Right Click Run Click](https://github.com/raw-labs/vscode/blob/main/images/imagesscratchpad-right-click.png)
 
 3. By pressing the Play button  when focused on the scratchpad
 
-![Play Button](https://github.com/raw-labs/vscode/tree/main/imagesscratchpad-play.png)
+![Play Button](https://github.com/raw-labs/vscode/blob/main/images/imagesscratchpad-play.png)
 
 ## Extension Settings
 **Please ignore this topic if you don't use multiple environments**
@@ -136,7 +136,7 @@ In order to run the code there are 3 ways.
 ### Environment Setting
 The default set environment is production (when the setting is empty), if you want to run the code against other environment, please change it in File -> Preferences -> Settings by searching RAW setting.
 
-![Environment Settings](https://github.com/raw-labs/vscode/tree/main/imagesenv-setting.png)
+![Environment Settings](https://github.com/raw-labs/vscode/blob/main/images/imagesenv-setting.png)
   
 
 ## Known Issues
