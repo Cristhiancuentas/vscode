@@ -2,7 +2,6 @@
 
 ## Table of Contents
 - [Features](#features)
-- [Requirements](#requirements)
 - [Usage](#usage)
 	- [Installation](#installation)
 	- [Layout](#layout)
@@ -41,20 +40,13 @@
 - Data Sources
 	- List Data Sources
 	- Test Access
-  
-
-## Requirements
-
-Until adding extension pack on marketplace, the dependencies have to be installed manually. So before using the extension please install the below extensions manually from VS Code extensions panel tab:
-
-- [Excel Viewer](https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer)
-- [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
 
 ## Usage
 
 ### Installation
+In order to install the extension search it in the marketplace and press install
 
-// TO DO add image and url of the extension
+![Installation](https://raw.githubusercontent.com/raw-labs/vscode/main/images/install.png)
 
 ### Layout
 

@@ -1,6 +1,18 @@
 # Change log
 Change log for the RAW Labs VS Code extension
 
+## [0.1.2] - 03-02-2022
+### Added
+- Converted to extension pack
+
+## [0.1.1] - 03-02-2022
+### Added
+- Changed description and title
+
+## [0.1.0] - 02-02-2022
+### Added
+- Marketplace Release
+
 ## [0.0.9] - 27-01-2022
 ### Added
 - Secret Data Source Visualization Support
