@@ -66,7 +66,7 @@ In order to logout, go to the left bottom corner of the editor, select the `Acco
 ![Logout](https://raw.githubusercontent.com/raw-labs/vscode/main/images/logout.png)
 
 ### Invoking Snippets
-While editing YAML and RQL files press `ctl + space`, a list will emerge with the available options.
+While editing YAML and RQL files press trigger suggestion (File -> Preferences -> Keyboard Shortcuts -> Trigger Suggest" keybinding), a list will emerge with the available options.
 
 ![YAML Snippets](https://raw.githubusercontent.com/raw-labs/vscode/main/images/yaml-snipets.png)
 

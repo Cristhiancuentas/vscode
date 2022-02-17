@@ -1,6 +1,11 @@
 # Change log
 Change log for the RAW Labs VS Code extension
 
+## [0.1.3] - 17-02-2022
+### Removed
+- Hidden filesystem items
+- Play button from raw-site.yaml
+
 ## [0.1.2] - 03-02-2022
 ### Added
 - Converted to extension pack
@@ -20,16 +25,13 @@ Change log for the RAW Labs VS Code extension
 ## [0.0.8] - 26-01-2022
 ### Added
 - Autocompletion
-![Autocompletion](https://rawlabs-public-test-data.s3.eu-west-1.amazonaws.com/vs-code-images/docs.png)
 ### Changed
 - Fixed indentation bug
 
 ## [0.0.7] - 24-01-2022
 ### Added
 - Documentation on hover
-![Documentation on hover](https://rawlabs-public-test-data.s3.eu-west-1.amazonaws.com/vs-code-images/docs.png)
 - Running DESCRIBE on urls inside RQL file
-![Run Describe](https://rawlabs-public-test-data.s3.eu-west-1.amazonaws.com/vs-code-images/describe.png)
 - Comment toggle by shortcut
 - Autocomplete brackets and parentheses
 - Surround code with brackets, quotes, parentheses, brackets
@@ -105,4 +107,5 @@ Change log for the RAW Labs VS Code extension
 - Showing execution logs
 - Showing and underlining RQL errors
 - YAML validation through JSON schema
+
 
