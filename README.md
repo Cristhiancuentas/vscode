@@ -6,7 +6,7 @@
 	- [Installation](#installation)
 	- [Layout](#layout)
 	- [Authentication](#authentication)
-		- [Login](#Login)
+		- [Login](#login)
 		- [Logout](#logout)
 	- [Invoking Snippets](#invoking-snippets)
 	- [Yaml auto-completion and validation](#yaml-auto-completion-and-validation)
@@ -56,14 +56,26 @@ In order to install the extension search it in the marketplace and press install
 
 #### Login
 
-When trying to Login, or run yaml file without being Logged In, a pop up will emerge where you have to provide your access token. The token expires after 24 hours.
+Focus on RAW Labs activity bar (On the left) button
 
-![Provide Token](https://raw.githubusercontent.com/raw-labs/vscode/main/images/provide-token.png)
+![Login Page](https://raw.githubusercontent.com/raw-labs/vscode/main/images/login-page.png)
+
+Then press Login, the below window opens in browser
+
+![Confirm Code](https://raw.githubusercontent.com/raw-labs/vscode/main/images/confirm-code.png)
+
+Then press Confirm
+
+![Provide Credentials](https://raw.githubusercontent.com/raw-labs/vscode/main/images/provide-creds.png)
+
+Then provide credentials
+
+![Ready to Go](https://raw.githubusercontent.com/raw-labs/vscode/main/images/login-finish.png)
 
 #### Logout
-In order to logout, go to the left bottom corner of the editor, select the `Accounts` icon and then sign out.
+In order to logout, go to the top right corner of the RAW Labs tab and press logout
 
-![Logout](https://raw.githubusercontent.com/raw-labs/vscode/main/images/logout.png)
+![Logout](https://raw.githubusercontent.com/raw-labs/vscode/main/images/logout-new.png)
 
 ### Invoking Snippets
 While editing YAML and RQL files press trigger suggestion (File -> Preferences -> Keyboard Shortcuts -> Trigger Suggest" keybinding), a list will emerge with the available options.
@@ -133,7 +145,6 @@ The default set environment is production (when the setting is empty), if you wa
 
 ## Known Issues
 
-- Token has to be provided every 24 hours.
 - No Grammar Semantics support for RQL.
 - No basic file-system operations in RAW explorer, new files have to be created in VS Code basic explorer and then refresh on RAW Explorer.
 - No way to provide new Data Sources, they have to be provided in RAW UI
