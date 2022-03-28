@@ -12,9 +12,9 @@
 	- [Yaml auto-completion and validation](#yaml-auto-completion-and-validation)
 	- [RQL validation](#rql-validation)
 	- [Running Yaml files](#running-yaml-files)
-		-[Endpoints without arguments](#endpoints-without-arguments)
-		-[Endpoints with arguments](#endpoints-with-arguments)
-	- [Listing Data Sources and Test Access](#listing-data-sources-and-test-access)
+		- [Endpoints without arguments](#endpoints-without-arguments)
+		- [Endpoints with arguments](#endpoints-with-arguments)
+	<!-- - [Listing Data Sources and Test Access](#listing-data-sources-and-test-access) -->
 	- [Scratchpad](#scratchpad)
 		- [Opening](#opening)
 		- [Running Code](#running-code)
@@ -101,14 +101,14 @@ After setting up the top level site-yaml file as well as the child endpoint yaml
 ![Run Yaml](https://raw.githubusercontent.com/raw-labs/vscode/main/images/run-yaml.png)
 
 #### Endpoints with arguments
-In order to run yaml files with arguments, click on `Add Argument Set` button on the left side of the editor. Then add any arguments needed for the invocation. Select the checkbox of the argument set that you want to use and then follow the steps described in [Endpoints without arguments](#endpoints-without-arguments). You can have multiple Argument Sets and select a different set per call.
+In order to run yaml files with arguments, click on `Add New Set` button on the left side of the editor. Then add any arguments needed for the invocation. Turn on the switch of the argument set that you want to use and then follow the steps described in [Endpoints without arguments](#endpoints-without-arguments). You can have multiple Argument Sets and select a different set per call.
 
-![Run Yaml With Arguments](https://raw.githubusercontent.com/raw-labs/vscode/main/images/arguments.png)
+![Run Yaml With Arguments](https://raw.githubusercontent.com/raw-labs/vscode/main/images/new-arguments.png)
 
-### Listing Data Sources and Test Access
+<!-- ### Listing Data Sources and Test Access
 When authenticated the extension will automatically fetch the available Data Sources and visualize them at the bottom of RAW explorer. In order to Test Access to Data Sources, click on the Data Source.
 
-![Data Sources](https://raw.githubusercontent.com/raw-labs/vscode/main/images/data-sources.png)
+![Data Sources](https://raw.githubusercontent.com/raw-labs/vscode/main/images/data-sources.png) -->
 
 ### Scratchpad
 From version 0.0.5 and on the extension supports scratchpad functionality. You still have to set up your git repository in order to use it.
