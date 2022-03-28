@@ -50,7 +50,7 @@ In order to install the extension search it in the marketplace and press install
 
 ### Layout
 
-![Layout](https://raw.githubusercontent.com/raw-labs/vscode/main/images/extension-layout.png)
+![Layout](https://raw.githubusercontent.com/raw-labs/vscode/main/images/layout.png)
 
 ### Authentication
 
@@ -151,11 +151,3 @@ The default set environment is production (when the setting is empty), if you wa
 - No support for embedded code into YAML file yet  
 
 ## Release Notes
-
-For more details visit the changelog file
-
-### 0.0.5
-Added the scratchpad functionality
-
-### 0.0.3
-Initial internal release
